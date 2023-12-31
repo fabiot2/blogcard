@@ -103,6 +103,7 @@ body {
 @media screen and (min-width: 600px) {
   .blog__card-title {
     margin-block-end: 2.2rem;
+    max-height: 3rem;
   }
 }
 .blog__card-text {
