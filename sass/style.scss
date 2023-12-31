@@ -138,6 +138,8 @@ body {
         margin-block-end: 2rem;
         max-height: 6rem;
         overflow: hidden;
+        color: $Grey;
+        font-weight: 600;
 
         @media screen and (min-width: $Query-tablet) {
             font-size: 1.6rem;

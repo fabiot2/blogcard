@@ -112,6 +112,8 @@ body {
   margin-block-end: 2rem;
   max-height: 6rem;
   overflow: hidden;
+  color: hsl(0, 0%, 50%);
+  font-weight: 600;
 }
 @media screen and (min-width: 600px) {
   .blog__card-text {
