@@ -63,7 +63,7 @@ body {
 }
 .blog__card-ctg {
   background-color: hsl(47, 88%, 63%);
-  width: 7.5rem;
+  padding: 0 1.4rem;
   height: 2.8rem;
   font-size: 1.2rem;
   font-weight: 600;
@@ -97,6 +97,8 @@ body {
   font-weight: 800;
   list-style: 2rem;
   margin-block-end: 2rem;
+  max-height: 1.8rem;
+  overflow: hidden;
 }
 @media screen and (min-width: 600px) {
   .blog__card-title {
@@ -107,12 +109,15 @@ body {
   font-size: 1.4rem;
   line-height: 2rem;
   margin-block-end: 2rem;
+  max-height: 6rem;
+  overflow: hidden;
 }
 @media screen and (min-width: 600px) {
   .blog__card-text {
     font-size: 1.6rem;
     line-height: 2.2rem;
     margin-block-end: 2.2rem;
+    max-height: 7rem;
   }
 }
 .blog__card-author {

@@ -92,7 +92,7 @@ body {
 
     &-ctg {
         background-color: $Primary-Color;
-        width: 7.5rem;
+        padding: 0 1.4rem;
         height: 2.8rem;
         font-size: 1.2rem;
         font-weight: 600;
@@ -124,6 +124,8 @@ body {
         font-weight: 800;
         list-style: 2rem;
         margin-block-end: 2rem;
+        max-height: 1.8rem;
+        overflow: hidden;
 
         @media screen and (min-width: $Query-tablet) {
             margin-block-end: 2.2rem;
@@ -133,10 +135,14 @@ body {
         font-size: 1.4rem;
         line-height: 2.0rem;
         margin-block-end: 2rem;
+        max-height: 6rem;
+        overflow: hidden;
+
         @media screen and (min-width: $Query-tablet) {
             font-size: 1.6rem;
             line-height: 2.2rem;
             margin-block-end: 2.2rem;
+            max-height: 7rem;
         }
     }
     
